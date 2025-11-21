@@ -2,10 +2,10 @@ package A3.projeto.A3Back.controller;
 
 import A3.projeto.A3Back.DTO.AuthRequest;
 import A3.projeto.A3Back.Repository.EmpresaRepository;
-import A3.projeto.A3Back.Repository.GolpeRepository;
+import A3.projeto.A3Back.Golpe_Service.repository.GolpeRepository;
 import A3.projeto.A3Back.model.EmpresaModel;
 import A3.projeto.A3Back.Security.JwtUtil;
-import A3.projeto.A3Back.model.GolpeModel;
+import A3.projeto.A3Back.Golpe_Service.model.GolpeModel;
 
 import java.util.List;
 import java.util.HashMap;
